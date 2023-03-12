@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-184f4da6","path":"/intro.html","title":"介绍页","lang":"zh-CN","frontmatter":{"icon":"info","date":"2023-03-09T00:00:00.000Z"},"headers":[],"git":{},"readingTime":{"minutes":0.07,"words":20},"filePathRelative":"intro.md","localizedDate":"2023年3月9日","excerpt":"<h1> 介绍页</h1>\\n<p>这个人很懒，什么都没留下。</p>\\n"}');export{t as data};
