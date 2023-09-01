@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-b1938792","path":"/tag/face-api/","title":"face-api 标签","lang":"zh-CN","frontmatter":{"title":"face-api 标签","index":false,"feed":false,"sitemap":false,"blog":{"type":"category","name":"face-api","key":"tag"},"layout":"BlogCategory"},"headers":[],"git":{},"readingTime":{"minutes":0,"words":0},"filePathRelative":null,"excerpt":""}');export{e as data};

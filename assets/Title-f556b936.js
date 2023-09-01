@@ -1,0 +1,1 @@
+import{c as s,S as a,U as _,V as e,ae as l,aQ as o}from"./framework-c3f43f5f.js";const i={class:"title"},n={class:"title-main"},c=s({__name:"Title",props:{title:{default:""}},setup(t){return(p,d)=>(a(),_("div",i,[e("div",n,[e("span",null,l(t.title),1)])]))}});const f=o(c,[["__scopeId","data-v-af245226"],["__file","Title.vue"]]);export{f as default};

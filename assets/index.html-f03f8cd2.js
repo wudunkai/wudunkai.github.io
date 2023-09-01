@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-c0316ede","path":"/category/axios/","title":"Axios 分类","lang":"zh-CN","frontmatter":{"title":"Axios 分类","index":false,"feed":false,"sitemap":false,"blog":{"type":"category","name":"Axios","key":"category"},"layout":"BlogCategory"},"headers":[],"git":{},"readingTime":{"minutes":0,"words":0},"filePathRelative":null,"excerpt":""}');export{e as data};
