@@ -11,7 +11,7 @@
     <style>
       .pages-container {
         display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(443.5px, 1fr));
+        grid-template-columns: repeat(auto-fill, minmax(887px, 1fr));
         gap: 2rem;
         margin-top: 2rem;
       }
@@ -20,9 +20,9 @@
         position: relative;
       }
       .page {
-        padding-top: 88px;
-        width: 443.5px;
-        height: 960px;
+        padding-top: 176px;
+        width: 887px;
+        height: 1920px;
       }
       .page-type-1 {
         background: url("https://kms.goofish.pro/xgj/Cmq1UHhHAN/ka/Fr5qIuofVMMBLsDfcz1-3kfSHPUK.jpeg")
@@ -33,49 +33,50 @@
           no-repeat center center / cover;
       }
       .page-inner {
-        margin-top: 12px;
+        margin-top: 24px;
         text-align: center;
-        margin-bottom: 16px;
+        margin-bottom: 32px;
         background: #f9f9f9;
       }
       .title {
-        font-size: 20px;
+        font-size: 40px;
         font-weight: bold;
-        margin-bottom: 4px;
-        letter-spacing: 1.6px;
+        margin-bottom: 8px;
+        letter-spacing: 3.2px;
       }
       .desc {
         color: #666;
-        font-size: 13.6px;
+        font-size: 27.2px;
       }
       section {
-        margin-top: 52.8px;
+        margin-top: 105.6px;
       }
       .title-left {
         font-weight: bold;
-        font-size: 19.2px;
+        font-size: 38.4px;
         color: #0f0f0f;
-        margin: 0 22.4px;
+        margin: 0 44.8px;
         background: #fff;
       }
       .qrCode {
         display: flex;
         align-items: center;
         justify-content: center;
-        margin: 44px 32px 0;
+        margin: 88px 64px 0;
         background: #fff;
+        position: relative;
       }
       .qrcode-container {
-        margin-right: 56px;
+        margin-right: 112px;
       }
       .barcode-container {
         position: absolute;
-        right: 63px;
+        right: 100px;
       }
       .vertical-barcode {
-        transform: rotate(90deg) scale(0.7);
+        transform: rotate(90deg) scaleY(0.7) scaleX(1.4);
         transform-origin: center;
-        margin: 20px 0;
+        margin: 40px 0;
       }
     </style>
   </head>
@@ -199,10 +200,10 @@
             <h3 class="title-left">${newCode}</h3>
             <div class="qrCode">
               <div class="qrcode-container">
-                <img src="https://api.qrserver.com/v1/create-qr-code/?size=145x145&data=${encodeURIComponent(code)}" alt="二维码">
+                <img src="https://api.qrserver.com/v1/create-qr-code/?size=290x290&data=${encodeURIComponent(code)}" alt="二维码">
               </div>
               <div class="barcode-container">
-                <img src="https://bwipjs-api.metafloor.com/?bcid=code128&text=${encodeURIComponent(code)}&scale=2&rotate=N&height=7" alt="条形码" class="vertical-barcode">
+                <img src="https://bwipjs-api.metafloor.com/?bcid=code128&text=${encodeURIComponent(code)}&scale=2&rotate=N&height=14" alt="条形码" class="vertical-barcode">
               </div>
             </div>
           </section>
